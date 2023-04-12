@@ -9,6 +9,7 @@ module.exports = {
     devtool: 'source-map',
     externals: [nodeExternals()],
     output: {
+        globalObject: "this",
         path: path.resolve(__dirname, "build"),
         filename: "[name].js",
         library: "bluebutton",
