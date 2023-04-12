@@ -14,8 +14,9 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "lodash": "^4.17.21",
-    "@xmldom/xmldom": "^0.8.7"
+    "@xmldom/xmldom": "^0.8.7",
+    "ejs": "^3.1.9",
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "@babel/core": "^7.13.15",
