@@ -9,6 +9,7 @@
     "url": "git://github.com/Kno2/bluebutton.js.git"
   },
   "scripts": {
+    "prepare": "npm run build",
     "build": "webpack",
     "test": "grunt test"
   },
