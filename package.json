@@ -10,7 +10,8 @@
   },
   "scripts": {
     "build": "webpack",
-    "test": "grunt test"
+    "test": "grunt test",
+    "prepare": "npm run build"
   },
   "dependencies": {
     "@xmldom/xmldom": "0.8.13",
